@@ -1,0 +1,1311 @@
+/* General Page Styling */
+.container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+;
+}
+
+/*....................Common item Styling.............................................*/
+/*....................Nav bar Styling.............................................*/
+
+    .navbar {
+        background: linear-gradient(135deg, #2c3e50, #34495e); /* Professional gradient */
+        padding: 15px 20px;
+    }
+
+    .navbar-brand {
+        font-size: 22px;
+        color: #ffffff !important;
+        transition: 0.3s ease-in-out;
+    }
+
+    .navbar-brand:hover {
+        color: #f1c40f !important;
+    }
+
+    .nav-link {
+        font-size: 16px;
+        color: #ffffff !important;
+        transition: 0.3s;
+        padding: 10px 15px;
+    }
+
+    .nav-link:hover {
+        color: #f1c40f !important;
+        text-decoration: underline;
+    }
+
+    .dropdown-menu {
+        background: #2c3e50;
+        border: none;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .dropdown-item {
+        color: white !important;
+        transition: 0.3s;
+    }
+
+    .dropdown-item:hover {
+        background: #f1c40f;
+        color: black !important;
+    }
+
+    /* Logout Button */
+    .btn-danger {
+        font-weight: bold;
+        border-radius: 8px;
+        background-color: #dc3545; /* Bootstrap danger color */
+        border: none;
+        padding: 10px 15px;
+        transition: all 0.3s ease-in-out;
+        color: white;
+        display: inline-block;
+    }
+
+    .btn-danger:hover {
+        background-color: #c82333;
+        box-shadow: 0 4px 10px rgba(220, 53, 69, 0.3);
+    }
+
+
+    #greeting {
+        font-size: 16px;
+        background: rgba(255, 255, 255, 0.2);
+        padding: 10px 15px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /*.................button style............................*/
+    /* Buttons */
+    .btn {
+        padding: 8px 12px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 6px;
+        transition: 0.3s ease-in-out;
+    }
+
+
+    .btn-primary {
+        background-color: #007bff;
+        border: none;
+        padding: 10px 15px;
+        font-weight: bold;
+        transition: all 0.3s ease-in-out;
+        border-radius: 6px;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+    /* Back to Dashboard Button */
+    .btn-secondary {
+        font-weight: bold;
+        border-radius: 8px;
+        background-color: #2c3e50; 
+        border: none;
+        padding: 10px 15px;
+        transition: all 0.3s ease-in-out;
+        color: white;
+
+    }
+
+    .btn-secondary:hover {
+        background-color: #34495e;
+        box-shadow: 0 4px 10px rgba(108, 117, 125, 0.3);
+    }
+
+    .btn-secondary:active {
+        transform: scale(0.98);
+    }
+
+
+    .btn-outline-secondary {
+        color: #6c757d;
+        border: 1px solid #6c757d;
+        padding: 10px 15px;
+        font-weight: bold;
+        transition: all 0.3s ease-in-out;
+        border-radius: 6px;
+    }
+
+    .btn-outline-secondary:hover {
+        background-color: #6c757d;
+        color: white;
+    }
+
+
+    .btn-warning {
+        background: #ffc107;
+        color: #333;
+    }
+
+    .btn-warning:hover {
+        background: #e0a800;
+    }
+
+    /* Close Button Styling */
+    .btn-close {
+        filter: invert(1);
+        opacity: 0.8;
+    }
+    
+    .btn-close:hover {
+        opacity: 1;
+    }
+
+
+/*.................Login Page............................*/
+    /* Glassmorphism Login Card */
+    .login-card {
+        width: 400px;
+        background: rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(10px);
+        border-radius: 12px;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+
+    /* Form Inputs */
+    .form-control {
+        background: rgba(255, 255, 255, 0.2);
+        border: none;
+        color: white;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .form-control:focus {
+        background: rgba(255, 255, 255, 0.3);
+        box-shadow: none;
+        border: 1px solid #f1c40f;
+    }
+
+    /* Placeholder text color */
+    ::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+
+
+
+/*......................................................................................*/
+/*..................Registration Page- Admin............................................*/
+  
+
+    /* Glassmorphism Card */
+    .registration-card {
+        width: 400px;
+        background: rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(10px);
+        border-radius: 12px;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+
+
+/*......................................................................................*/
+/*..................Welcome Page..........................*/
+
+    /* Welcome Page Styling */
+    .welcome-container {
+        position: relative;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centers the title horizontally */
+        justify-content: flex-start; /* Keeps the title at the top */
+        text-align: center;
+        background: rgba(0, 0, 0, 0.2);
+    }
+
+    /* Title Styling */
+    .welcome-title {
+        font-size: 36px;
+        font-weight: bold;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* Box for welcome text and button */
+    .welcome-box {
+        /*background: rgba(255, 255, 255);*/
+        position: absolute;
+        bottom:100px;  /* Positions at the bottom */
+        right: 30px;   /* Positions at the right */
+        padding: 20px 30px;
+        border-radius: 12px;
+        border: 4px solid rgba(252, 151, 243, 0.7); /* Subtle border */
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        width: 600px;
+        height: 300px;
+    }
+
+    /* Welcome Text */
+    .welcome-text {
+        font-size: 22px;
+        font-weight: bold;
+        color: #ffffff; /* Darker text for readability */
+        margin-bottom: 15px;
+        line-height: 1.6;
+    }
+
+
+/*.............................................................................................*/
+/*..................User Dashboard........................*/
+    .dashboard-container {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .welcome-box2 {
+        background: rgba(255, 255, 255, 0.2);
+        padding: 20px;
+        width: 500px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        margin-bottom: 20px;
+    }
+
+    .reservation-card {
+        background: rgba(255, 255, 255, 0.9);
+        width: 33%;
+        margin: 20px auto;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .reservation-card:hover {
+        transform: scale(1.05);
+    }
+
+    .card_shadow_rounded {
+        background: rgba(255, 255, 255, 0.9);
+        margin: 10px auto;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .card_shadow_rounded:hover {
+        transform: scale(1.05);
+    }
+
+    /* Calendar Styles */
+    .calendar-container {
+        width: 100%;
+        font-size: 0.85rem;
+    }
+
+    .calendar-grid {
+        display: grid;
+        gap: 2px;
+    }
+
+    .calendar-row {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 2px;
+    }
+
+    .calendar-weekday {
+        text-align: center;
+        padding: 3px;
+        background-color: #f8f9fa;
+        font-weight: 500;
+    }
+
+    .calendar-day {
+        aspect-ratio: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        background-color: #fff;
+        border: 1px solid #e6dede;
+    }
+
+    .other-month {
+        background-color: #f8f9fa;
+        color: #6c757d;
+    }
+
+    .reserved-day {
+        background-color: #dc3545;
+        color: white;
+        border-radius: 50%;
+        font-weight: bold;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        cursor: pointer;
+    }
+
+    /* Timetable Styles */
+    .timetable-table {
+        width: 100%;
+        table-layout: fixed; /* Ensures consistent column widths */
+        border-collapse: collapse;
+        background: white;
+    }
+
+    .time-label {
+        width: 100px;
+        padding: 8px;
+        text-align: right;
+        vertical-align: middle;
+        background-color: #f8f9fa;
+        border-right: 1px solid #dee2e6;
+    }
+
+    .reservation-slot {
+        height: 50px;
+        padding: 0;
+        position: relative;
+        border:  1px solid #9b9b9b;
+        
+    }
+
+    .reservation-details {
+        padding: 4px 8px;
+        color: rgb(255, 255, 255);
+        font-size: 0.85rem;
+        position: relative;
+    }
+
+
+    /* Hall Grid Styles */
+    .hall-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 8px;
+    }
+
+    .hall-box {
+        aspect-ratio: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        transition: transform 0.2s;
+        min-width: 0; /* For text truncation */
+    }
+
+    .hall-box:hover {
+        transform: scale(1.03);
+        z-index: 1;
+    }
+
+    .hall-name {
+        color: white;
+        font-weight: 300;
+        padding: 4px;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        display: box; 
+        -webkit-box-orient: vertical;
+        box-orient: vertical; 
+        -webkit-line-clamp: 2;
+        line-clamp: 2; 
+        overflow: hidden;
+    }
+    
+
+
+    /* History Panel Styles */
+    .btn-history-type {
+        padding: 8px;
+        border-radius: 0;
+        border: none;
+        background-color: #f8f9fa;
+        transition: all 0.3s ease;
+    }
+
+    .btn-history-type.active {
+        background-color: #6395c7;
+        color: white;
+    }
+
+    .btn-history-type:hover:not(.active) {
+        background-color: #e9ecef;
+    }
+
+    .history-panel {
+        padding: 8px;
+    }
+
+    .history-panel .list-group-item {
+        padding: 8px;
+        margin-bottom: 4px;
+        font-size: 0.85rem;
+    }
+
+    /* Modal Styles */
+    #reservationDetailModal .modal-dialog {
+        max-width: 600px;
+    }
+
+   /* ===============================
+   Hall Calendar Modal Layout
+   =============================== */
+
+    #hallCalendarModal .modal-dialog {
+        max-width: 900px;
+        width: 90%;
+        margin: auto;
+        
+    }
+
+    #hallCalendarModal .modal-content {
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        border: none;
+        border-radius: 0.75rem;
+        overflow: hidden;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+    }
+
+    #hallCalendarModal .modal-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 1.5rem;
+        border-bottom: 1px solid #ddd;
+        background-color: #f8f9fa;
+    }
+
+    #hallCalendarModal .modal-title {
+        flex-grow: 1;
+        text-align: center;
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+
+    #hallCalendarModal .modal-body {
+        flex: 1;
+        display: flex;
+        padding: 10px;
+        overflow: hidden;
+    }
+
+    /* ===============================
+    Left Sidebar Panel
+    =============================== */
+
+    #hallCalendarModal .calendar-sidebar {
+        width: 40%;
+        min-width: 240px;
+        padding: 1rem;
+        background-color: #f8f9fa;
+        border-right: 1px solid #dee2e6;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        box-sizing: border-box;
+        overflow-y: auto;
+        
+    }
+
+
+    /* ===============================
+    Mini Calendar Section
+    =============================== */
+
+    #hallCalendarModal {
+        flex-shrink: 0;
+    }
+
+    #hallCalendarModal .calendar-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    #hallCalendarModal .calendar-row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #hallCalendarModal .calendar-weekday,
+    #hallCalendarModal .calendar-day {
+        flex: 1;
+        text-align: center;
+        padding: 6px 0;
+        font-size: 0.8rem;
+        border-radius: 4px;
+        background-color: #ffffff;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+    }
+
+    #hallCalendarModal .calendar-day:hover {
+        background-color: #e2e6ea;
+    }
+
+    #hallCalendarModal .calendar-day.reserved-day {
+        background-color: #f73a4d;
+        color: #721c24;
+        font-weight: bold;
+    }
+
+    /* ===============================
+    Calendar Header Navigation Buttons - REDUCED SIZE
+    =============================== */
+    .calendar-header .btn {
+        padding: 2px 6px;
+        font-size: 0.75rem;
+        height: auto;
+    }
+
+    /* ===============================
+    Filter Controls - Prevent Overflow
+    =============================== */
+    #hallCalendarModal .controls-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        max-height: calc(100vh - 250px); /* adjust if needed */
+        overflow-y: auto;
+    }
+
+    /* ===============================
+    Filter Controls Section
+    =============================== */
+
+    #hallCalendarModal .controls-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        
+    }
+
+    #hallCalendarModal .controls-container .form-check {
+        font-size: 0.9rem;
+        padding-left: 0.25rem;
+    }
+
+
+/*..............................user Reservation page style...................................*/
+
+    /* Base Styles */
+    .user-reservation-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #333;
+    }
+
+    /* Titles */
+    .userReservation-title,
+    .user-activity-history-title {
+        color: #ffffff;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+        border-bottom: 3px solid #3498db;
+        padding-bottom: 0.5rem;
+    }
+
+    /* Search Card */
+    .search-card {
+        background: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .form-control-Search {
+        width: 100%;
+        padding: 0.75rem;
+        border: 2px solid #dfe6e9;
+        border-radius: 8px;
+        transition: border-color 0.3s ease;
+    }
+
+    .form-control-Search:focus {
+        border-color: #3498db;
+        outline: none;
+    }
+
+    /* Availability Info */
+    .availability-info {
+        background: #f8f9fa;
+        border-radius: 8px;
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+
+    .info-text {
+        margin: 0;
+        color: #7f8c8d;
+        font-size: 0.9rem;
+    }
+
+    /* Results Window */
+    .availability-results-window {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: white;
+        width: 90%;
+        max-width: 800px;
+        max-height: 80vh;
+        border-radius: 12px;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+        overflow: hidden;
+    }
+
+    .results-header {
+        background: #3498db;
+        color: white;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .close-results {
+        background: none;
+        border: none;
+        color: rgb(255, 0, 0);
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    .hall-list {
+        padding: 1rem;
+        overflow-y: auto;
+    }
+
+    .hall-card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        margin: 0.5rem 0;
+        background: #f8f9fa;
+        border-radius: 8px;
+        transition: transform 0.2s ease;
+    }
+
+    .hall-card:hover {
+        transform: translateX(5px);
+    }
+
+    /* Reservation Modal */
+    .modal-content {
+        border-radius: 12px;
+    }
+
+    .form-control-booking {
+        width: 100%;
+        padding: 0.5rem;
+        border: 2px solid #dfe6e9;
+        border-radius: 6px;
+    }
+
+    /* Activity History Table */
+    .user-activity-History-section {
+        margin-top: 3rem;
+    }
+
+    .table {
+        border-collapse: collapse;
+        width: 100%;
+        background: white;
+    }
+
+    .table th {
+        background: #3498db;
+        color: white;
+        position: sticky;
+        top: 0;
+    }
+
+    .table td, .table th {
+        padding: 12px;
+        border: 1px solid #dfe6e9;
+    }
+
+    .table tr:nth-child(even) {
+        background: #f8f9fa;
+    }
+
+    /* Buttons */
+    .btn-primary {
+        background: #3498db;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+    }
+
+    .btn-primary:hover {
+        background: #2980b9;
+        transform: translateY(-2px);
+    }
+
+    .reserve-now-btn {
+        background: #27ae60;
+        color: white;
+        border: none;
+        padding: 0.75rem 1.25rem;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+    }
+
+    .reserve-now-btn:hover {
+        background: #219a52;
+    }
+
+    /* Floating Window */
+    .floating-window {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: white;
+        width: 90%;
+        max-width: 1000px;
+        max-height: 90vh;
+        border-radius: 12px;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+        overflow: hidden;
+    }
+
+    /* Loading Spinner */
+    .loading-spinner {
+        display: none;
+        justify-content: center;
+        padding: 2rem;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .user-reservation-container {
+            padding: 1rem;
+        }
+
+        .search-card .col-md-4,
+        .search-card .col-md-3 {
+            margin-bottom: 1rem;
+        }
+
+        .hall-card {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .reserve-now-btn {
+            margin-top: 1rem;
+        }
+
+        .table {
+            display: block;
+            overflow-x: auto;
+        }
+    }
+
+    /* Add this to your existing CSS */
+    .modal-header {
+        background-color: #3498db !important;
+        color: white !important;
+        border-bottom: none !important;
+        border-radius: 12px 12px 0 0 !important;
+        padding: 1rem !important;
+    }
+
+    .modal-title {
+        color: white !important;
+        font-weight: 600 !important;
+        margin: 0 !important;
+    }
+
+    .btn-close {
+        filter: invert(1) brightness(100%) !important;
+        opacity: 0.8 !important;
+    }
+
+    .btn-close:hover {
+        opacity: 1 !important;
+    }
+
+    /* Reservation Details Dropdown Styles */
+    .reservation-details {
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        padding: 0.75rem;
+    }
+
+    .details-toggle {
+        background: none;
+        border: none;
+        color: #3498db;
+        padding: 0;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        width: 100%;
+    }
+
+    .details-toggle:hover {
+        color: #2980b9;
+    }
+
+    .details-toggle i {
+        transition: transform 0.3s ease;
+    }
+
+    .details-content {
+        margin-top: 1rem;
+        padding: 1rem;
+        background-color: #f8f9fa;
+        border-radius: 6px;
+    }
+
+    .detail-item {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.5rem;
+    }
+
+    .detail-label {
+        color: #7f8c8d;
+        font-weight: 500;
+    }
+
+    .detail-value {
+        color: #2c3e50;
+        font-weight: 600;
+    }
+
+    /* Rotate arrow when expanded */
+    .details-toggle[aria-expanded="true"] i {
+        transform: rotate(180deg);
+    }
+
+    /* Form Control Styling */
+    .form-control-booking {
+        width: 100%;
+        padding: 0.75rem;
+        border: 2px solid #dfe6e9;
+        border-radius: 8px;
+        transition: border-color 0.3s ease;
+    }
+
+    .form-control-booking:focus {
+        border-color: #3498db;
+        outline: none;
+        box-shadow: none;
+    }
+
+
+/*..............................Admin Dashboard...................................*/
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.welcome-box2 {
+    background: rgba(255, 255, 255, 0.2); /* Transparent white */
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px); /* Glassmorphism effect */
+    position: absolute;
+    top: 100px;
+    left: 10px;
+}
+.admin-card-holder {
+    
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.admin-userapproval-card,
+.admin-reservation-card {
+    background: rgba(255, 255, 255, 0.8);
+    width: 33%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-50%);  
+    left: 50%;
+    
+    
+}
+
+/*...............................Admin Reservation Managemnt.............*/
+.admin-reservation-container {
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 30px;
+    
+}
+.hall-info-section{
+    background: rgba(202, 179, 240, 0.5); 
+    padding: 20px;
+    width:90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px); /* Glassmorphism effect */
+    top: 80px;
+    
+
+}
+.hall-info-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1b0691;
+    text-align: center;
+    margin-top: 20px;
+}
+.last-update {
+    font-size: 20px;
+    color: #fcfcfc;
+    text-align: left;
+    margin-top: 20px;
+}
+.admin-reservation-confirmation-section{
+    background: rgba(202, 179, 240, 0.5); 
+    padding: 20px;
+    width:90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px); /* Glassmorphism effect */
+    margin-top: 20px;
+    
+
+}
+.hall-reservation-confirmation-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1b0691;
+    text-align: center;
+    margin-top: 20px;
+}
+/* add new hall form Input Fields */
+.form-control-booking {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.form-control-booking:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+    outline: none;
+}
+
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    outline: none;
+}
+
+
+
+
+/* Floating Window Styles *************************************/
+.floating-window {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 780px; /* Slightly reduced for better proportions */
+    max-height: 80vh;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+    z-index: 1000;
+    display: none;
+    overflow: hidden;
+    border: 1px solid #e0e3e7;
+}
+
+.floating-content {
+    padding: 18px 22px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+
+.filter-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.filter-container label {
+    color: #4a5568;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.view-toggle {
+    display: flex;
+    gap: 6px;
+}
+
+.view-toggle .btn {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.view-toggle .btn.active {
+    background-color: #4299e1;
+    color: white;
+    border-color: #4299e1;
+}
+
+.view-toggle .btn:not(.active) {
+    color: #4a5568;
+    border-color: #cbd5e0;
+}
+
+.view-toggle .btn:not(.active):hover {
+    background-color: #f7fafc;
+}
+
+/* Tab Content Area */
+.tab-content {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8fafc;
+    border-radius: 6px;
+}
+
+.tab-pane {
+    display: none;
+    height: 100%;
+    overflow: hidden;
+    background: white;
+    border-radius: 6px;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+/* Table Styles */
+.table-container, .availability-container {
+    height: calc(70vh - 160px);
+    overflow-y: auto;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    background: white;
+}
+
+.compact-table {
+    width: 100%;
+    font-size: 0.88em;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.compact-table th, .compact-table td {
+    padding: 10px 14px;
+    text-align: left;
+    border-bottom: 1px solid #edf2f7;
+}
+
+.compact-table th {
+    background: #f8fafc;
+    position: sticky;
+    top: 0;
+    color: #4a5568;
+    font-weight: 600;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+.compact-table tr:hover td {
+    background-color: #f8fafc;
+}
+
+/* Availability Grid Styles */
+.availability-table {
+    width: 100%;
+    font-size: 0.82em;
+    border-collapse: collapse;
+    background: white;
+}
+
+.availability-table th, .availability-table td {
+    border: 1px solid #e2e8f0;
+    padding: 6px 4px;
+    text-align: center;
+}
+
+.availability-table th {
+    background: #f8fafc;
+    position: sticky;
+    top: 0;
+    color: #4a5568;
+    font-weight: 600;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+.time-col {
+    width: 60px;
+    font-weight: 600;
+    background: #f8fafc;
+    position: sticky;
+    left: 0;
+    color: #4a5568;
+    border-right: 2px solid #e2e8f0 !important;
+}
+
+.availability-table td[data-day][data-hour] {
+    background-color: #e8f5e9; /* Light green */
+    position: relative;
+    min-width: 40px;
+    transition: all 0.2s ease;
+}
+
+.availability-table td[data-day][data-hour]:hover {
+    filter: brightness(98%);
+}
+
+.availability-table td[data-day][data-hour].reserved {
+    background-color: #ff4444 !important; /* Bright red */
+    color: white !important;
+    font-weight: bold;
+    border: 1px solid #cc0000 !important;
+}
+
+/* Close button and title */
+.close-btn {
+    position: absolute;
+    top: 14px;
+    right: 18px;
+    font-size: 22px;
+    cursor: pointer;
+    color: #a0aec0;
+    transition: color 0.2s ease;
+}
+
+.close-btn:hover {
+    color: #718096;
+}
+
+#popupTitle {
+    color: #2d3748;
+    font-size: 1.3rem;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+/* Info message */
+.info-message {
+    font-size: 0.82rem;
+    color: #718096;
+    margin-top: 14px;
+    margin-bottom: 0;
+    padding-top: 12px;
+    border-top: 1px solid #f0f2f5;
+}
+
+/* Form select styles */
+.form-select-sm {
+    padding: 6px 10px;
+    font-size: 0.85rem;
+    border-radius: 6px;
+    border: 1px solid #cbd5e0;
+    color: #4a5568;
+    background-color: white;
+    transition: border-color 0.2s ease;
+}
+
+.form-select-sm:focus {
+    border-color: #4299e1;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.1);
+}
+
+.sort-container {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Pushes it to the right */
+}
+
+
+.sort-container label {
+    color: #4a5568;
+    font-size: 0.85rem;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.filter-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    margin-top: 10px;
+    gap: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #f0f2f5;
+    flex-wrap: wrap; /* Allows items to wrap on small screens */
+}
+
+
+@media (max-width: 768px) {
+    .filter-row {
+        gap: 8px;
+    }
+    .filter-container, .sort-container, .view-toggle {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
