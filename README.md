@@ -1,66 +1,68 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🎓 Lecture Hall Reservation System
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A web-based reservation system developed for the **Department of Mathematics, University of Colombo**, to efficiently manage lecture hall bookings and streamline the reservation process for admins, staff, and guests.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 🚀 Project Overview
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+The Lecture Hall Reservation System is a full-stack web application built with **Laravel**, designed to handle real-time lecture hall reservations. It supports multiple user roles (Admin, User, Guest), enables administrators to manage reservation requests, and provides an intuitive interface for users to view and make bookings.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+This system was developed as part of a university internship project, with a strong focus on **user experience**, **role-based access**, and **practical functionality** tailored to academic institutions.
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 📅 Timeline Highlights
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- Set up login and registration pages using **Laravel**
+- Implemented user authentication and error handling
+- Added contact page and basic UI styling
+- Gained experience in Laravel, MySQL, debugging, and system integration
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- Developed complete **role-based login system** for Admin, User, and Guest
+- Built the **Admin Dashboard**: approve/reject users, add lecture halls
+- Created the **User Dashboard**: make/view bookings
+- Integrated **email notifications** for registration approvals
+- Attended AI in Healthcare session at ICCMM 2025
 
-## Laravel Sponsors
+- Implemented core features: hall booking, cancellation, calendar view
+- Resolved UI bugs and improved modal/floating windows
+- Added **time conflict prevention** for overlapping bookings
+- Finalized the system with performance improvements and feedback
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+## Features
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+- 🔐 Role-based login system (Admin, User, Guest)
+- 🗂️ Admin approval of registration requests
+- 📧 Email notifications on user approval and reservation status
+- 🗓️ Enable Lecture hall reservations by Filtering available Halls for a requested Date
+- 📊 Comperhensive dashboard with Calander icons for more user friendly.
+- 🧭 Floating window to view booking details and 
+- 🎨 User-friendly UI with custom CSS styling
+- 📌 Secure login with validation and error messages and establish Middleware to deny Unauthorized Accesses.
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## ⚙️ Tech Stack
 
-## Code of Conduct
+| Layer         | Technologies Used                     |
+|---------------|----------------------------------------|
+| Backend       | Laravel (PHP Framework)               |
+| Frontend      | Blade Templating, HTML, CSS           |
+| Database      | MySQL                                 |
+| Server        | WAMP (Apache + PHP + MySQL)           |
+| Notifications | Laravel Mail (SMTP)                   |
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+## 💻 Local Installation Guide
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Prerequisites
+- PHP >= 8.0
+- Composer
+- WAMP/XAMPP (MySQL + Apache)
+- Git (optional)
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
